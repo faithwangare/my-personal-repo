@@ -1,7 +1,9 @@
-body {
-    background-color: black;
+ body {
+   background-image: url("bkg.jpeg");
+   background-size: cover;
+   background-repeat:no-repeat;
 }
 h1 {
     text-align: center;
-    color: grey;
+    color: coral;
 }
