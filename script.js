@@ -1,4 +1,10 @@
-const h2 = document.createElement("h2");
-h2.textContent = "GETTING STARTED";
+// This code adds a click event listener to the "Learn More" button and displays an alert when clicked
 
-document.querySelector("body").appendChild(h2);
+// Select the "Learn More" button element using its ID
+const ctaButton = document.getElementById('cta-button');
+
+// Add a click event listener to the "Learn More" button
+ctaButton.addEventListener('click', () => {
+  // Display an alert
+  alert('Thanks for your interest! Our website is still under construction.');
+});
